@@ -1,21 +1,18 @@
 # DackPack - Nucleic Acid Analysis
 
-DackPack is a wrapper for NUPA. It is implemented in Python.
+DackPack is a..... It is implemented in Python.
 
 ## Features
 - User-friendly interface for parameter and nucleic acid sequence input
-![User interface](example_imgs/user_interface.png)
 - Automated calculation of equilibrium concentrations (via NUPACK<sup>1,2</sup>)
-![Example equilib](example_imgs/example_equilibrium.png)
 - Structure visualisation (using NucDraw<sup>3</sup>)
-![Example structure](example_imgs/example_structure.png)
 
 ## In Developement
 - Integration with Multistrand<sup>4,5</sup> for kinetic simulations
 - Latest NUPACK<sup>1,2</sup> version integration for DNA/RNA hydrids, OMe RNA, and wider salt conditions
 
 ## Contact
-Developed by Chelsea Dack in 
+Developed by Chelsea Dack, PhD student in the [Booth group](https://boothlab.uk/). E-mail: chelsea.dack.24@ucl.ac.uk
 
 ## Installation
 1. First, make sure the following requirements are installed on your host system:
@@ -37,6 +34,14 @@ To launch DackPack on Windows (using Ubuntu, assuming NUPACK installation as des
    - Move the DackPack.py script into Ubuntu's Linux home directory
    - Open a new Ubuntu window and type this line:
      - `python3 DackPack.py`
+
+To analyse nucleic acid sequences:
+1. Input parameters and nucleic acid sequence(s)
+<img src="example_imgs/user_interface.png" width="250" height="350">
+2. Click 'Run Analysis' for calculation of equilibrium concentrations (via NUPACK<sup>1,2</sup>). This window will appear:
+<img src="example_imgs/example_equilibrium.png" width="600" height="150">
+3. Click 'Plot Structure' for structure visualisation of a chosen complex (using NucDraw<sup>3</sup>). This window will appear, where individual bases / strand backbones are coloured by identity and base pairs are coloured by MFE probability:
+<img src="example_imgs/example_structure.png" width="400" height="300">
 
 ## References:
 1. M.E. Fornace, N.J. Porubsky, and N.A. Pierce (2020). A unified dynamic programming framework for the analysis of interacting nucleic acid strands: enhanced models, scalability, and speed. ACS Synth Biol, 9:2665-2678, 2020.
