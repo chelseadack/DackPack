@@ -23,7 +23,7 @@ Developed by Chelsea Dack (chelsea.dack.24@ucl.ac.uk), PhD student in the [Booth
 To launch DackPack on MacOS:
    - Open a new Terminal window and type this line, substituting the location of the DackPack.py script:
      - `python3 ~/insert_path_to/DackPack.py`
-   - Note: A standalone DackPack application (not included here) has also been developed for MacOS. This allows users to launch the GUI without using Terminal. The NUPACK module is still requires separate installation however, due to lisence resitrictions.
+   - Note: A standalone DackPack application (not included here) has also been developed for MacOS. This allows users to launch the GUI without using Terminal. The NUPACK module still requires separate installation however, due to licence restrictions.
 
 To launch DackPack on Windows (using Ubuntu, assuming NUPACK installation as described [here](https://docs.nupack.org/start/#installation-requirements)):
    - Move the DackPack.py script into Ubuntu's Linux home directory
